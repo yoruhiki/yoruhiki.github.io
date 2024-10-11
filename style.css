@@ -97,8 +97,8 @@ button:hover {
 }
 
 #upload-button {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
   position: absolute;
   top: 10px;
   right: 10px;
@@ -113,6 +113,5 @@ button:hover {
 }
 
 #upload-button i {
-  font-size: 12px;
-  line-height: 1;
+  font-size: 14px;
 }
