@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile Card</title>
     <link
@@ -22,20 +21,24 @@
       <h2>よるひき</h2>
       <p>Info About Me? aka that</p>
       <div class="card__social">
-        <a target="_black" href="https://www.facebook.com/anisphia.palletia">
+        <a target="_blank" href="https://www.facebook.com/anisphia.palletia">
           <i class="fab fa-facebook-f"></i>
         </a>
-        <a target="_black" href="https://www.youtube.com/@chisato_arts">
+        <a target="_blank" href="https://www.youtube.com/@chisato_arts">
           <i class="fab fa-youtube"></i>
         </a>
-        <a target="_black" href="https://www.tiktok.com/yoruhiki">
+        <a target="_blank" href="https://www.tiktok.com/yoruhiki">
           <i class="fab fa-tiktok"></i>
         </a>
-        <a target="_black" href="https://github.com/yoruhiki">
+        <a target="_blank" href="https://github.com/yoruhiki">
           <i class="fab fa-github"></i>
         </a>
       </div>
       <button onclick="window.location.href='mailto:yuearifureta300@gmail.com';">Contact me</button>
     </div>
+    <input type="file" id="background-upload" style="display: none;" />
+    <input type="text" id="api-key-input" placeholder="Enter your ImgBB API Key" />
+    <button id="upload-button">Upload Background</button>
+    <script src="script.js"></script>
   </body>
 </html>
