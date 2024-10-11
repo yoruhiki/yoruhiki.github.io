@@ -11,9 +11,9 @@
   </head>
   <body>
     <div class="clock">
-      <div id="vietnam-time"></div>
-      <div id="tokyo-time"></div>
-      <div id="england-time"></div>
+      <div id="vietnam-time">Vietnam Time (ICT): <span id="vietnam-time-value"></span></div>
+      <div id="tokyo-time">Tokyo Time (JST): <span id="tokyo-time-value"></span></div>
+      <div id="uk-time">UK Time (BST/GMT): <span id="uk-time-value"></span></div>
     </div>
     <div class="card">
       <div class="card__img">
@@ -45,5 +45,29 @@
       <button class="nav-button" onclick="window.location.href='https://www.facebook.com/fansub.A4VFamily';">A4VFamily</button>
     </div>
     <script src="script.js"></script>
+    <script>
+      function updateTimes() {
+        const vietnamTimeElement = document.getElementById('vietnam-time-value');
+        const tokyoTimeElement = document.getElementById('tokyo-time-value');
+        const ukTimeElement = document.getElementById('uk-time-value');
+
+        const now = new Date();
+
+        // Vietnam time (ICT)
+        const vietnamTime = new Date(now.toLocaleString("en-US", { timeZone: "Asia/Ho_Chi_Minh" }));
+        vietnamTimeElement.textContent = vietnamTime.toLocaleTimeString();
+
+        // Tokyo time (JST)
+        const tokyoTime = new Date(now.toLocaleString("en-US", { timeZone: "Asia/Tokyo" }));
+        tokyoTimeElement.textContent = tokyoTime.toLocaleTimeString();
+
+        // UK time (BST/GMT)
+        const ukTime = new Date(now.toLocaleString("en-US", { timeZone: "Europe/London" }));
+        ukTimeElement.textContent = ukTime.toLocaleTimeString();
+      }
+
+      setInterval(updateTimes, 1000);
+      updateTimes();
+    </script>
   </body>
 </html>
