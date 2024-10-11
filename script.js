@@ -9,4 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   setInterval(updateTime, 1000);
   updateTime();
+
+  // Prevent right-click context menu
+  document.addEventListener("contextmenu", function (e) {
+    e.preventDefault();
+  });
 });
