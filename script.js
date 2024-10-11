@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const uploadButton = document.getElementById("upload-button");
   const backgroundUpload = document.getElementById("background-upload");
-  const apiKeyInput = document.getElementById("api-key-input");
 
   uploadButton.addEventListener("click", () => {
     backgroundUpload.click();
@@ -12,11 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const formData = new FormData();
     formData.append('image', file);
 
-    const apiKey = apiKeyInput.value.trim();
-    if (!apiKey) {
-      alert("Please enter your ImgBB API key.");
-      return;
-    }
+    const apiKey = 'YOUR_IMGBB_API_KEY';
 
     fetch(`https://api.imgbb.com/1/upload?key=${apiKey}`, {
       method: 'POST',
