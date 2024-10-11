@@ -14,7 +14,7 @@
 
 body {
   height: 100vh;
-  background-image: var(--background-image);
+  background: var(--background-image);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -50,7 +50,7 @@ body {
   width: 150px;
   height: 150px;
   overflow: hidden;
-  transition: transform 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
   margin: 0 auto;
   transform: translateY(25px);
   border-radius: 50%;
@@ -67,11 +67,11 @@ body {
 }
 
 .card__img:hover img {
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 
-.card__img img {
-  transition: transform 0.25s ease-in-out;
+.card__img:hover {
+  transform: translateY(0);
 }
 
 h2 {
