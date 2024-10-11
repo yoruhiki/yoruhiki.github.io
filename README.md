@@ -1,4 +1,4 @@
-# Personal Profile Website
+v# Personal Profile Website
 
 This is my personal profile website, created with HTML and CSS.
 
@@ -10,6 +10,7 @@ This is my personal profile website, created with HTML and CSS.
 
 - `index.html`: The main page of the website.
 - `style.css`: The stylesheet for styling the webpage.
+- `script.js`: The JavaScript file for dynamic features.
 
 ## Contact
 
