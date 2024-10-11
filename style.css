@@ -23,6 +23,7 @@ body {
   align-items: center;
   flex-direction: column;
   position: relative;
+  z-index: 1;
 }
 
 .clock {
@@ -32,6 +33,7 @@ body {
   color: white;
   font-size: 14px;
   text-align: center;
+  z-index: 2;
 }
 
 .card {
@@ -45,6 +47,7 @@ body {
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: all 0.25s ease-in-out;
+  z-index: 2;
 }
 
 .card__img {
@@ -55,6 +58,7 @@ body {
   border-radius: 50%;
   border: 4px solid var(--pink-color);
   cursor: pointer;
+  z-index: 1;
 }
 
 .card__img img {
@@ -71,6 +75,7 @@ body {
 
 .card:hover {
   transform: translateY(-50px);
+  z-index: 3;
 }
 
 h2 {
