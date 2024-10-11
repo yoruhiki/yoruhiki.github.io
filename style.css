@@ -23,7 +23,6 @@ body {
   align-items: center;
   flex-direction: column;
   position: relative;
-  overflow: hidden; /* Ensure that any overflow content is hidden */
 }
 
 .clock {
@@ -72,11 +71,11 @@ body {
   border-radius: 0;
   border: none;
   transform: scale(1.1);
-  z-index: 2; /* Ensure the image is on top */
+  z-index: 2;
 }
 
 .card:hover {
-  z-index: 2; /* Ensure the card is on top when hovered */
+  z-index: 2;
 }
 
 h2 {
@@ -119,7 +118,7 @@ button:hover {
 
 .navigation {
   margin-top: 20px;
-  z-index: 3; /* Ensure the navigation buttons are always on top */
+  z-index: 3; /* Đảm bảo rằng các nút chuyển hướng luôn ở trên cùng */
 }
 
 .nav-button {
@@ -131,7 +130,6 @@ button:hover {
   margin: 5px;
   cursor: pointer;
   transition: 0.25s;
-  z-index: 4; /* Ensure the navigation buttons are always on top */
 }
 
 .nav-button:hover {
