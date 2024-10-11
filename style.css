@@ -14,7 +14,7 @@
 
 body {
   height: 100vh;
-  background: linear-gradient(45deg, rgba(0, 133, 62, 0.5), rgba(80, 200, 120, 0.5)), var(--background-image);
+  background-image: var(--background-image);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
