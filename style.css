@@ -118,7 +118,7 @@ button:hover {
 
 .navigation {
   margin-top: 20px;
-  z-index: 3; /* Đảm bảo rằng các nút chuyển hướng luôn ở trên cùng */
+  z-index: 3;
 }
 
 .nav-button {
