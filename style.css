@@ -23,6 +23,7 @@ body {
   align-items: center;
   flex-direction: column;
   position: relative;
+  overflow: hidden; /* Ensure that any overflow content is hidden */
 }
 
 .clock {
@@ -42,7 +43,7 @@ body {
   background-color: rgba(36, 38, 40, 0.8);
   overflow: hidden;
   margin: 0 30px;
-  z-index: 2;
+  z-index: 1;
 }
 
 .card__img {
@@ -71,6 +72,11 @@ body {
   border-radius: 0;
   border: none;
   transform: scale(1.1);
+  z-index: 2; /* Ensure the image is on top */
+}
+
+.card:hover {
+  z-index: 2; /* Ensure the card is on top when hovered */
 }
 
 h2 {
@@ -113,7 +119,7 @@ button:hover {
 
 .navigation {
   margin-top: 20px;
-  z-index: 2;
+  z-index: 3; /* Ensure the navigation buttons are always on top */
 }
 
 .nav-button {
@@ -125,6 +131,7 @@ button:hover {
   margin: 5px;
   cursor: pointer;
   transition: 0.25s;
+  z-index: 4; /* Ensure the navigation buttons are always on top */
 }
 
 .nav-button:hover {
