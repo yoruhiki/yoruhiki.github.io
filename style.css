@@ -14,9 +14,10 @@
 
 body {
   height: 100vh;
-  background: linear-gradient(45deg, rgba(0, 133, 62, 0.8), rgba(80, 200, 120, 0.8)), var(--background-image);
+  background-image: var(--background-image);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
   display: flex;
   justify-content: center;
   align-items: center;
