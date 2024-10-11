@@ -24,10 +24,12 @@ document.addEventListener("DOMContentLoaded", function () {
           document.body.style.backgroundImage = `url(${imageUrl})`;
           localStorage.setItem("backgroundImage", imageUrl);
         } else {
+          console.error('Failed to upload image:', data);
           alert("Failed to upload image");
         }
       })
-      .catch(() => {
+      .catch(error => {
+        console.error('Error uploading image:', error);
         alert("Error uploading image");
       });
   });
