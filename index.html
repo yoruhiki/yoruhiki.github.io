@@ -53,13 +53,13 @@
         const now = new Date();
         // Vietnam time (UTC+7)
         const vietnamTime = new Date(now.toLocaleString("en-US", { timeZone: "Asia/Ho_Chi_Minh" }));
-        vietnamTimeElement.textContent = vietnamTime.toLocaleTimeString();
+        vietnamTimeElement.textContent = vietnamTime.toLocaleTimeString('en-GB', { hour12: false });
         // Tokyo time (UTC+9)
         const tokyoTime = new Date(now.toLocaleString("en-US", { timeZone: "Asia/Tokyo" }));
-        tokyoTimeElement.textContent = tokyoTime.toLocaleTimeString();
+        tokyoTimeElement.textContent = tokyoTime.toLocaleTimeString('en-GB', { hour12: false });
         // London time (UTC+1)
         const londonTime = new Date(now.toLocaleString("en-US", { timeZone: "Europe/London" }));
-        londonTimeElement.textContent = londonTime.toLocaleTimeString();
+        londonTimeElement.textContent = londonTime.toLocaleTimeString('en-GB', { hour12: false });
       }
       setInterval(updateTimes, 1000);
       updateTimes();
