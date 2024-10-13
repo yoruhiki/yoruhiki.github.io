@@ -13,7 +13,7 @@
     <div class="clock">
       <div id="vietnam-time">Vietnam Time (UTC+7): <span id="vietnam-time-value"></span></div>
       <div id="tokyo-time">Tokyo Time (UTC+9): <span id="tokyo-time-value"></span></div>
-      <div id="london-time">London Time (UTC+1): <span id="london-time-value"></span></div>
+      <div id="london-time">London Time (UTC+0/UTC+1): <span id="london-time-value"></span></div>
     </div>
     <div class="card">
       <div class="card__img">
@@ -44,7 +44,6 @@
       <button class="nav-button" onclick="window.location.href='https://twitter.com';">Twitter X</button>
       <button class="nav-button" onclick="window.location.href='https://www.facebook.com/fansub.A4VFamily';">A4VFamily</button>
     </div>
-    <script src="script.js"></script>
     <script>
       function updateTimes() {
         const vietnamTimeElement = document.getElementById('vietnam-time-value');
@@ -52,14 +51,11 @@
         const londonTimeElement = document.getElementById('london-time-value');
         const now = new Date();
         // Vietnam time (UTC+7)
-        const vietnamTime = new Date(now.toLocaleString("en-US", { timeZone: "Asia/Ho_Chi_Minh" }));
-        vietnamTimeElement.textContent = vietnamTime.toLocaleTimeString('en-GB', { hour12: false });
+        vietnamTimeElement.textContent = now.toLocaleTimeString('en-GB', { timeZone: 'Asia/Ho_Chi_Minh', hour12: false });
         // Tokyo time (UTC+9)
-        const tokyoTime = new Date(now.toLocaleString("en-US", { timeZone: "Asia/Tokyo" }));
-        tokyoTimeElement.textContent = tokyoTime.toLocaleTimeString('en-GB', { hour12: false });
-        // London time (UTC+1)
-        const londonTime = new Date(now.toLocaleString("en-US", { timeZone: "Europe/London" }));
-        londonTimeElement.textContent = londonTime.toLocaleTimeString('en-GB', { hour12: false });
+        tokyoTimeElement.textContent = now.toLocaleTimeString('en-GB', { timeZone: 'Asia/Tokyo', hour12: false });
+        // London time (UTC+0/UTC+1)
+        londonTimeElement.textContent = now.toLocaleTimeString('en-GB', { timeZone: 'Europe/London', hour12: false });
       }
       setInterval(updateTimes, 1000);
       updateTimes();
