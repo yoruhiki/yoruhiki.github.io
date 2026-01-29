@@ -2,9 +2,9 @@
 　
 　
 About Me --->
->My PFP: https://yoruhiki.github.io/ <do tôi tạo và quản lý>
->My VNs Categorize: https://yoruhikivns.bio.link/ <do tôi tạo và quản lý>
-> My Github: https://github.com/yoruhiki/yoruhiki.github.io/ <trang dự án mà tôi quản lý>
+>My PFP: https://yoruhiki.github.io/ <do tôi tạo và quản lý> /* ưu tiên Desktop Mode để có UI chuẩn nhất vì không build UI cho Mobile */
+>My VNs Categorize: https://yoruhikivns.bio.link/ <do tôi tạo và quản lý> /* Sub-Web được tạo từ bên thứ ba, tối ưu cho cả hai UI Mobile và Desktop */
+>My Github: https://github.com/yoruhiki/yoruhiki.github.io/ <trang dự án mà tôi quản lý> /* Dự án trang Web Fersonal Profile */
 　
 <---------->
 Infomation about me. | Thông tin về Tôi.
@@ -59,7 +59,7 @@ And more. | Và còn rất nhiều.
 総合評価：N5 98%、N4 80%、N3 0%、N2 0%、N1 0%
 更新日：2026年1月）
 .Russian <Tiếng Nga) 2% (Не очень обнадеживающе; планирую продолжить обучение после достижения предыдущих целей)
-Chinese <Tiếng Trung> 5-20% （我的情况不太乐观，大约十年前上过基础课，但可能已经忘了。目前我的水平只懂一点词汇、含义、发音、会话词汇、汉越语（音标）和沟通技巧。我计划在完成之前的目标后学习更多。）
+.Chinese <Tiếng Trung> 5-20% （我的情况不太乐观，大约十年前上过基础课，但可能已经忘了。目前我的水平只懂一点词汇、含义、发音、会话词汇、汉越语（音标）和沟通技巧。我计划在完成之前的目标后学习更多。）
 　
 And more | Và còn rất nhiều.
 　
@@ -79,7 +79,6 @@ And more | Và còn rất nhiều.
 .Translator <Dịch thuật viên>
 .Re-draw <Người tái chính sửa>
 .Traveller <Du lịch viên>
-
 
 <---------->
   NGOÀI LỀ
