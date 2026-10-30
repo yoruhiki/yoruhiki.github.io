@@ -19,11 +19,11 @@
 
 Có thể liên hệ với tôi qua các info trong website này, hoặc các mạng XH như:
 - <P> Zalo: 0981920532 </P>
-- <P> Telegram: Anisphia_II </P>
+- <P> Telegram: Anisphia_II / yoru_tt234 </P>
 - <P> Line: yuevampire323 </P>
 
 Ưu tiên Zalo hoặc FB có trong link [websites](https://yoruhiki.github.io) nhé, không tiện ghi vì tôi bị ~~ISSUE~~ có khả năng bị Zucc bonk acc bất cứ lúc nào :v
 
 <hr/>
 
-date --2024年12月23日--
+date --2026年10月30日--
